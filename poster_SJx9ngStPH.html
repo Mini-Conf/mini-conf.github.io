@@ -1,9 +1,12 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     
+
+
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -16,48 +19,30 @@
     <link rel="stylesheet" href="static/css/typeahead.css" />
 
     <!-- External Javascript libs  -->
-    <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.3/handlebars.min.js"
-      integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js" integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"
-      integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.28/moment-timezone-with-data.min.js"
-      integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww="
-      crossorigin="anonymous"
-    ></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js" integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww=" crossorigin="anonymous"></script>
 
     <!-- Library libs -->
     <script src="static/js/typeahead.bundle.js"></script>
 
     <!-- External CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous">
 
     <!-- External Fonts -->
     <link
@@ -70,8 +55,39 @@
       rel="stylesheet"
     />
 
-    <title></title>
+    <title>MiniConf 2020: NAS-Bench-1Shot1: Benchmarking and Dissecting One-shot Neural Architecture Search</title>
     
+<meta name="citation_title" content="NAS-Bench-1Shot1: Benchmarking and Dissecting One-shot Neural Architecture Search" />
+
+<meta name="citation_author" content="Arber Zela" />
+
+<meta name="citation_author" content="Julien Siems" />
+
+<meta name="citation_author" content="Frank Hutter" />
+
+<meta name="citation_publication_date" content="May 2020" />
+<meta name="citation_conference_title" content="Miniconf Conference Management" />
+<meta name="citation_inbook_title" content="Proceedings of the First MiniCon Conference" />
+<meta name="citation_abstract" content="One-shot neural architecture search (NAS) has played a crucial role in making
+NAS methods computationally feasible in practice. Nevertheless, there is still a
+lack of understanding on how these weight-sharing algorithms exactly work due
+to the many factors controlling the dynamics of the process. In order to allow
+a scientific study of these components, we introduce a general framework for
+one-shot NAS that can be instantiated to many recently-introduced variants and
+introduce a general benchmarking framework that draws on the recent large-scale
+tabular benchmark NAS-Bench-101 for cheap anytime evaluations of one-shot
+NAS methods. To showcase the framework, we compare several state-of-the-art
+one-shot NAS methods, examine how sensitive they are to their hyperparameters
+and how they can be improved by tuning their hyperparameters, and compare their
+performance to that of blackbox optimizers for NAS-Bench-101." />
+
+<meta name="citation_keywords" content="computer vision" />
+
+<meta name="citation_keywords" content="neural architecture search" />
+
+<meta name="citation_pdf_url" content="" />
+
+
   </head>
 
   <body>
@@ -83,8 +99,13 @@
     >
       <div class="container">
         <a class="navbar-brand" href="index.html">
-          <img class="logo" src="static/images/MiniConf.png" width="180px" />
+          <img
+             class="logo" src="static/images/MiniConf.png"
+             height="auto"
+             width="180px"
+          />
         </a>
+        
         <button
           class="navbar-toggler"
           type="button"
@@ -119,6 +140,10 @@
             </li>
             
             <li class="nav-item ">
+              <a class="nav-link" href="chat.html">Chat</a>
+            </li>
+            
+            <li class="nav-item ">
               <a class="nav-link" href="about.html">Help</a>
             </li>
             
@@ -128,6 +153,7 @@
     </nav>
     
 
+    
     <!-- User Overrides -->
      
 
@@ -211,22 +237,82 @@ performance to that of blackbox optimizers for NAS-Bench-101.
   </div>
 </div>
 
-<!-- Presentation Embed -->
-<div class="border-top my-3"></div>
-<div class="row p-4" id="faq">
-  <div class="col-12 bd-content">
-    <h2 class="text-center">Paper</h2>
-  </div>
-</div>
-
 <h5 style="color: red;">
   Add content for posters. This could be a video, embedded pdf, chat room ....
 </h5>
 
+<!-- Chat -->
+<div class="border-top my-3"></div>
+<div class="row p-4" id="faq">
+  <div class="col-12 bd-content">
+    <h2 class="text-center">Example Chat</h2>
+  </div>
+</div>
+
+<div class="col-md-12 col-xs-12 p-2">
+  <div id="gitter" class="slp">
+    <center>
+      <iframe frameborder="0" src="http://35.232.236.127:3000/channel/paper_SJx9ngStPH?layout=embedded" height="700px" width="100%" ></iframe>
+    </center>
+  </div>
+</div>
+
+<!-- Slides Live-->
+
+<div class="border-top my-3"></div>
+<div class="row p-4" id="faq">
+  <div class="col-12 bd-content">
+    <h2 class="text-center">Example SlidesLive</h2>
+  </div>
+</div>
+
+<div class="col-md-12 col-xs-12 my-auto p-2" >
+  <div id="presentation-embed" class="slp my-auto"></div>
+  <script src='https://slideslive.com/embed_presentation.js'></script>
+  <script>
+    embed = new SlidesLiveEmbed('presentation-embed', { 
+    presentationId: '38922815',
+    autoPlay: false, // change to true to autoplay the embedded presentation
+    verticalEnabled: true,
+    verticalWhenWidthLte: 500,
+    allowHiddenControlsWhenPaused: true,
+    hideTitle: true
+    });
+  </script>
+</div>
+
+
+<!-- Chat -->
+
+<div class="border-top my-3"></div>
+<div class="row p-4" id="faq">
+  <div class="col-12 bd-content">
+    <h2 class="text-center">Example Poster</h2>
+  </div>
+</div>
+
+<div role="main" id="pdf_view"></div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.3.200/build/pdf.min.js"></script>
+<script src="static/js/pdf_render.js"></script>
+<script>
+    $(document).ready(() => {
+        // render first page of PDF to div
+        // PDF name can be bound to variable -- e.g. paper.content.poster_link
+        initPDFViewer("/static/images/GLTR_poster.pdf",'#pdf_view');
+    })
+</script>
+
+
+
+
+
+
 
       </div>
     </div>
-
+    
     
 
     <!-- Google Analytics -->
