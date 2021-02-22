@@ -1,11 +1,0 @@
---2020-06-11 10:43:52--  https://fonts.googleapis.com/css?family=Lato:400,900
-Resolving fonts.googleapis.com (fonts.googleapis.com)... 64.233.177.95, 2607:f8b0:4002:c08::5f
-Connecting to fonts.googleapis.com (fonts.googleapis.com)|64.233.177.95|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified [text/css]
-Saving to: ‘css?family=Lato:400,900’
-
-css?family=Lato:400,900                     [<=>                                                                             ]       0  --.-KB/s               css?family=Lato:400,900                     [ <=>                                                                            ]     436  --.-KB/s    in 0s      
-
-2020-06-11 10:43:52 (44.4 MB/s) - ‘css?family=Lato:400,900’ saved [436]
-
